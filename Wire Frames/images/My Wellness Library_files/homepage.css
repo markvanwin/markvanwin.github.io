@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff9e5;
+}
+
+header {
+	height: 600px;
+	width: 100%;
+	margin: 0 0 0 0;
+	border: 1px solid black;
+	opacity: 0.6;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+	margin: 10px 0;
+}
+
+.logo {
+	width: 250px;
+	height: 150px;
+	background-color: #CCC;
+	margin: 0 0 0 550px;
+	max-width: 100%
+}
+
+.nav {
+	border-top: 1px solid green;
+	padding: 0 0 0 400px;
+	margin: 0 0 10px 0;
+	max-width: 100%
+}
+
+.smallheader {
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin: 0 0 0 10px;
+	text-align: center;
+	font-family: papyrus;
+}
+
+.quizbox {
+	float: right;
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+.left {
+	width: 125px;
+	height: 580px;
+}
+
+.main {
+	width: 650px;
+	height: 580px;
+	float: right;
+	margin: 20px 0 0 20px;
+}
+
+.row {
+	margin: 0 auto;
+	height: 250px;
+}
+
+.row2 {
+	margin: 0 auto;
+	height: 150px;
+	padding: 0 0 200px 0;
+}
+
+.magsmallsection {
+	float: left;
+	margin: 10px 0 0 0;
+	width: 150px;
+	height: 200px;
+	background-color: #CCC;
+	border: 1px solid #808080;
+}
+
+.magsmallsection.second {
+	float: right;
+}
+
+.magsmallsection.third {
+	margin: 10px 10px;
+}
+
+.magsmallsection.fourth {
+	margin: 10px 10px;
+}
+
+.disclaimer {
+	height: 200px;
+	width: 100%;
+	background: #006600;
+	opacity: 0.2;
+}
+

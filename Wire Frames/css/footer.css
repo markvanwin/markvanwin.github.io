@@ -1,0 +1,50 @@
+footer {
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+	background: #404040;
+}
+
+.smallfooter {
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 10px;
+	padding-top: 15px;
+}
+
+.social {
+	text-align: center;
+	height: auto;
+	width: 100%;
+}
+
+.social li {
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
+    height: 25px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.socialwrapper ul {
+	/*float: left;*/
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 25px;
+}
+
+.socialwrapper h3 {
+	margin-top: 25px;
+	color: black;
+}
+
+.socialwrapper h4 {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+}

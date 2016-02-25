@@ -1,0 +1,102 @@
+#row3 {
+	height: 600px;
+	width: 100%;
+  	background: black;
+  	opacity: 0.5;
+}
+
+.aboutsection {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.aboutheader {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	font-weight: bolder;
+}
+
+.aboutbox {
+	width: 900px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.descriptionbox {
+	float: left;
+	width: 600px;
+	height: 350px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-top: 25px;
+}
+
+.infobox {
+	float: left;
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	padding-left: 15px;
+	list-style-type: none;
+}
+
+.infobox img {
+	margin: 5px auto;
+}
+
+.phone {
+	width: 200px;
+	height: 75px;
+}
+
+.map {
+	width: 200px;
+	height: 75px;
+}
+
+.mail {
+	width: 200px;
+	height: 75px;
+}
+
+.web {
+	width: 200px;
+	height: 75px;
+}
+
+.aboutbox h4 {
+	font-size: 18px;
+}
+
+@media screen and (min-width: 980px){
+
+}
+@media screen and (max-width:980px) and (min-width: 768px){
+	.aboutbox {
+		width: 100%;
+	}
+	.descriptionbox {
+		width: 100%;
+		height: 50%;
+	}
+	.infoxbox {
+		
+	}
+}
+@media screen and (max-width: 768px){
+	.aboutbox {
+		width: 100%;
+	}
+	.descriptionbox {
+		width: 100%;
+		height: 50%;
+	}
+	.infoxbox {
+		height: 50%;
+	}
+}
+
+
