@@ -1,96 +1,347 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>My Awesome Site</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		
-	</head>
-	<body>
-		<div class="container">
-			<nav class="navbar navbar-inverse">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-				      </button>
-						<a class="navbar-brand">Hey what's up</a>
+<head>
+	<title>My Wellness Library</title>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Archivo Narrow">
+	<link rel="stylesheet" href="css/all.css" type="text/css" />
+	<link rel="stylesheet" href="css/header.css" type="text/css" />
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<link rel="stylesheet" href="css/datapoints.css" type="text/css" />
+	<link rel="stylesheet" href="css/gallery.css" type="text/css" />
+	<link rel="stylesheet" href="css/about.css" type="text/css" />
+	<link rel="stylesheet" href="css/contact.css" type="text/css" />
+	<link rel="stylesheet" href="css/footer.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick.css"/>
+	<link rel="stylesheet" href="slick-1.5.9/slick/slick-theme.css" type="text/css" />
+
+</head>
+<body>
+	<div class="nav">
+		<div class="clearfix stickynav">
+			<div class="logo">
+				<img src = "images/logo.png" alt="Logo" height = "150px" width = "250px">
+			</div>
+			<header id="mobileheader">
+				<nav>
+				<ul>
+					<li><div class="line"></div><div class="line"></div><div class="line"></div></li>
+					<li><a data-target="#top" href="#top">HOME</a></li>
+					<li><a data-target="#row" href="#row">OUR MISSION</a></li>
+					<li><a data-target="#row2" href="#row2">BE LIKE US</a></li>			
+					<li><a data-target="#row3" href="#row3">ABOUT US</a></li>			
+					<li><a data-target="#row4" href="#row4">CONTACT US</a></li>
+					<li><a data-target="blog.html" href="blog.html">BLOG</a></li>		
+				</ul>
+				</nav>
+			</header>
+			<div class="smallheader">
+				<a data-target="#top" href="#top">HOME</a>
+			</div>
+			<div class="smallheader">
+				<a data-target="#row" href="#row">OUR MISSION</a>
+			</div>
+			<div class="smallheader">
+				<a data-target="#row2" href="#row2">BE LIKE US</a>
+			</div>
+			<div class="smallheader">
+				<a data-target="#row3" href="#row3">ABOUT US</a>
+			</div>
+			<div class="smallheader">
+				<a data-target="#row4" href="#row4">CONTACT US</a>
+			</div>
+			<div class="smallheader">
+				<a data-target="blog.html" href="blog.html">BLOG</a>
+			</div>
+		</div>
+	</div>
+	<section id="mainpic-container">
+	<div class="bcg" data-center="background position: 50% 0px;" data-top-bottom="background-position: 50% -100px;," data-anchor-target="#mainpic-container">
+	  <div class="hsContainer">
+        <div class="hsContent"
+            data-center="opacity: 1"
+            data-150-top="opacity: 0"
+            data-anchor-target="#mainpic-container h2">
+			<h2>BLISSFULLY ELEGANT LOL</h2>
+		</div>
+	</div>
+	</div>
+	</section>
+	<section id="signup" class="homeSlide">
+		<div class="bcg"  
+			data-0="background-color:rgb(1,27,59);"
+        	data-top="background-color:(1,5,10);"
+        	data-anchor-target="#signup">
+		  	<div class="hsContainer">
+            	<div class="hsContent">
+				<h2
+					data--200-bottom="opacity: 0"
+                    data-center="opacity: 1"
+                    data-206-top="opacity: 1"
+                    data-106-top="opacity: 0"
+                    data-anchor-target="#signup h2">
+                   	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. 
+                    <a class="button" href="signup.html">Join Us</a>
+                </h2>
+            	</div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix">
+    <section id="roadToPeace" class="homeSlide">
+    <div class="bcg"
+        data-center="background-position: 0px 50%;"
+        data-bottom-top="background-position: 0px 40%;"
+        data-top-bottom="background-position: -40px 50%;"
+        data-anchor-target="#roadToPeace"
+    	>
+        <div class="hsContainer">
+            <div class="hsContent">
+                <div class="plaxEl"
+                    data-206-top="opacity: 0"
+                    data-bottom="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;"
+                    data--30p-top="opacity: 1;"
+                    data--60p-top="opacity: 0;"
+                    data-anchor-target="#roadToPeace"
+                >
+                    <h2>Find Your Road You Big Bum</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+	</section>
+	</div>
+	<section id="row" class="homeSlide homeSlideTall">
+	<div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-bottom-top="background-position: 50% 100px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-anchor-target="#row"
+    	>
+        <div class="curtainContainer">
+            <div class="curtain"
+                data-bottom-top="opacity: 0"
+                data-206-top="height: 1%; top: -10%; opacity: 0;"
+                data-center="height: 100%; top: 0%; opacity: 0.5"
+                data-anchor-target="#row">
+            </div>
+	            <div class="copy"
+	                data-bottom-top="opacity: 0"
+	                data--100-bottom="opacity: 0"
+	                data--280-bottom="opacity: 1;"
+	                data-280-top="opacity: 1;"
+	                data-106-top="opacity: 0;"
+	                data-anchor-target="#row .copy">
+	                <!-- <div class="missionstatementsection">
+					<div class="missionstatement">
+						<img src = "images/missionstatementmock.png" alt="MissionMock">
 					</div>
-				
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li><a href="#" class="active">Hey</a></li>
-							<li><a href="#" class="active">Yo</a></li>
-							<li><a href="#" class="active">Howdy</a></li>
-						</ul>
+					<div class="missionstatement second">
+						<img src = "images/missionstatementmock.png" alt="MissionMock">
 					</div>
+					<div class="missionstatement third">
+						<img src = "images/missionstatementmock.png" alt="MissionMock">
+					</div>
+					<div class="missionstatement fourth">
+						<img src = "images/missionstatementmock.png" alt="MissionMock">
+					</div>	
+					<div class="missionstatement fifth">
+						<img src = "images/missionstatementmock.png" alt="MissionMock">
+					</div>	
+					<div class="missionstatement sixth">
+						<img src = "images/missionstatementmock.png" alt="MissionMock">
+					</div> -->
+					<h2>Hi what should this say</h2>
 				</div>
-			</nav>
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-8 col-lg-10">
-					<h1>Left column!</h1>
-					<blockquote>
-  					<p>This is a blockquote.</p>
-					</blockquote>
-					<table class="table table-hover-2">
-						<thead>
-							<tr>
-								<td>Name</td>
-								<td>Page</td>
-								<td>Height</td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>John</td>
-								<td>13</td>
-								<td>1.84m</td>
-							</tr>
-							<tr>
-								<td>Joe</td>
-								<td>14</td>
-								<td>2.23m</td>
-							</tr>
-						</tbody>
-					</table>
-					<button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">My Button</button>
-					<p class="bg-success">This is a message with a background!</p>
+            </div>
+        </div>
+    </div>
+	</section>
+<!-- 		<div id="row">
+			<div class="missionstatementsection">
+				<div class="missionstatement">
+					<img src = "images/missionstatementmock.png" alt="MissionMock">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-					<h1>Right column!</h1>
-					<select class="form-control">
-					  <option>1</option>
-					  <option>2</option>
-					  <option>3</option>
-					  <option>4</option>
-					  <option>5</option>
-					</select>
+				<div class="missionstatement second">
+					<img src = "images/missionstatementmock.png" alt="MissionMock">
+				</div>
+				<div class="missionstatement third">
+					<img src = "images/missionstatementmock.png" alt="MissionMock">
+				</div>
+				<div class="missionstatement fourth">
+					<img src = "images/missionstatementmock.png" alt="MissionMock">
+				</div>	
+				<div class="missionstatement fifth">
+					<img src = "images/missionstatementmock.png" alt="MissionMock">
+				</div>	
+				<div class="missionstatement sixth">
+					<img src = "images/missionstatementmock.png" alt="MissionMock">
 				</div>
 			</div>
 		</div>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        YOOOOOOOOOOOOOOO
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	</body>
+		</div> -->
+
+	<div class="clearfix">
+	<div id="row2">
+		<h2>Be Like Us</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+		<div class="gallerywrapper">
+			<!-- swap with image -->
+			<a class="previous" href="#"><</a>
+			<a class="next" href="#">></a>
+			<div class="gallerymobile">
+					<div class="gallery">
+						<div class="caption">Put Text Here That Will Blow People's Minds</div>
+					<img src = "images/spinach.jpg" data-lightbox="stockPhotos" alt="Stock Photo" height="100%" width="100%">
+				</div>
+				<div class="gallery second">
+					<div class="caption">Put Text Here That Will Blow People's Minds</div>
+					<img src = "images/woods.jpeg" data-lightbox="stockPhotos" alt="Stock Photo 2" height="100%" width="100%">
+				</div>
+				<div class="gallery third">
+					<div class="caption">Put Text Here That Will Blow People's Minds</div>
+					<img src = "images/spinach2.jpg"data-lightbox="stockPhotos"  alt="Stock Photo 3" height="100%" width="100%">
+				</div>
+				<div class="gallery fourth">
+					<div class="caption">Put Text Here That Will Blow People's Minds</div>
+					<img src = "images/sunrise.jpg" data-lightbox="stockPhotos" alt="Stock Photo 4" height="100%" width="100%">
+				</div>
+				<div class="gallery fifth">
+					<div class="caption">Put Text Here That Will Blow People's Minds</div>
+					<img src = "images/granola.jpg" data-lightbox="stockPhotos" alt="Stock Photo 5" height="100%" width="100%">
+				</div>
+				<div class="gallery sixth">
+					<div class="caption">Put Text Here That Will Blow People's Minds</div>
+					<img src = "images/sunset.jpg" data-lightbox="stockPhotos" alt="Stock Photo 6" height="100%" width="100%">
+				</div>
+			</div>	
+		</div>
+		<div class="gallerydesktop">
+			<div class="gallery">
+					<div class="caption">Put Text Here That Will Blow People's Minds
+  					</div>
+					<img src = "images/spinach.jpg" alt="Stock Photo" height="100%" width="100%">
+			</div>
+			<div class="gallery second">
+				<div class="caption">Put Text Here That Will Blow People's Minds</div>
+				<img src = "images/woods.jpeg" alt="Stock Photo" height="100%" width="100%">
+			</div>
+			<div class="gallery third">
+				<div class="caption">Put Text Here That Will Blow People's Minds</div>
+				<img src = "images/spinach2.jpg" alt="Stock Photo" height="100%" width="100%">
+			</div>
+			<div class="gallery fourth">
+				<div class="caption">Put Text Here That Will Blow People's Minds</div>
+				<img src = "images/sunrise.jpg" alt="Stock Photo" height="100%" width="100%">
+			</div>
+			<div class="gallery fifth">
+				<div class="caption">Put Text Here That Will Blow People's Minds</div>
+				<img src = "images/granola.jpg" alt="Stock Photo" height="100%" width="100%">
+			</div>
+			<div class="gallery sixth">
+				<div class="caption">Put Text Here That Will Blow People's Minds</div>
+				<img src = "images/sunset.jpg" alt="Stock Photo" height="100%" width="100%">
+			</div>
+		</div>
+	</div>
+	<div class="clearfix">
+	<div id="row3">
+		<div class="aboutsection">
+			<div class="aboutheader">
+				<h2>ABOUT</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+			</div>
+			<div class="aboutbox">
+				<div class="descriptionbox">
+					<h4>Writing</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Duo tamquam utroque sensibus at, an pri posse libris saperet, no indoctum suscipiantur sea. Qui cu invenire perpetua definitiones, nisl moderatius est et. Meis vidisse recusabo at sit, no nec nisl nemore delicatissimi. Homero eleifend sit ut.</p>
+				</div>
+				<ul class="infobox">
+					<h4>Personal Info</h4>
+					<li class="phone">
+						<img src = "images/phone.png" alt="phone" height="20px" width="30px">
+						<p>+1 (206) 555-5555</p>
+					</li>
+					<li class="map">
+						<img src = "images/map.png" alt="map" height="20px" width="30px">
+						<p><a href="https://www.google.com/maps/place/New+York,+NY/@40.7053111,-74.258188,10z/data=!3m1!4b1!4m2!3m1!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62">New York, NY</a></p>
+					</li>
+					<li class="mail">
+						<img src = "images/mail.png" alt="mail" height="20px" width="30px">
+						<p><a href="info@mywellnesslibrary.com">info@mywellnesslibrary.com</a></p>
+					</li>
+					<!-- <div class="web">
+						<img src = "images/web.png" alt="web" height="20px" width="30px">
+						<link><p>Instagram</p><link>
+					</div> -->
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="clearfix">
+	<div id="row4">
+		<div class="contactheader">
+			<h2>CONTACT</h2>
+			<p>Hi, we would love to hear from you!</p>
+		</div>
+		<form action="http://formspree.io/mvw914fm@gmail.com" method="post">
+			<div class="namebox">
+					<input type="text" placeholder="Your Name" />
+				</div>
+				<div class="emailbox">
+					<input type="email" placeholder="Your Email" />
+				</div>
+				<div class="commentbox">
+					<input type="text" placeholder="Your Comments" />
+				</div>
+				<div class="send-btn">
+				<input type="submit" />
+			</div>
+		</form>
+	</div>
+	</div>
+	<footer>
+			<div class="smallfooter">
+				<p>Press</p>
+			</div>
+			<div class="smallfooter">
+				<p>Privacy Policy</p>
+			</div>
+			<div class="smallfooter">
+				<p>Terms of Use</p>
+			</div>
+			<div class="smallfooter">
+			<p>Disclaimers</p>
+			</div>
+	</footer>
+	<div class="socialwrapper">
+		<section class="social">
+			<h3>CONNECT WITH US</h3>
+			<ul>
+			<li><a href="http://www.twitter.com"><img src="images/Twitter.png"</a></li>
+			<li><a href="http://www.facebook.com"><img src="images/Facebook.png"</a></li>
+			<li><a href="http://www.instagram.com"><img src="images/Instagram.png"</a></li>
+			</ul>
+		</section>
+		<h4><a data-target="#top" href="#top">MyWellnessLibrary, Inc. 2016</a></h4>
+	</div>
+	</div>
+	
+	<script src="js/enquire.js"></script>
+	<script src="js/skrollr.js"></script>
+	<script src="js/all.js"></script>
+	<script type="text/javascript">
+		var s = skrollr.init();
+	</script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="slick-1.5.9/slick/slick.min.js"></script>
+	<script type="text/javascript" src="slick-1.5.9/slick/slick.js"></script> 
+	<script src="js/jquery.scrollto.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/gallery.js"></script>
+	<script src="js/about.js"></script>
+	<script src="js/contact.js"></script>
+
+</body>
 </html>
