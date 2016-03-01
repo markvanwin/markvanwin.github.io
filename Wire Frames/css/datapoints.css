@@ -1,26 +1,28 @@
+#palmtree .bcg {
+	background-image:url("../images/palmtree.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+#palmtree .bcg h2 {
+	color: black;
+	font-size: 46px;
+}
 .curtainContainer {
     width: 100%; height: 100%;
     position: relative;
 }
 .curtainContainer .curtain {
     width: 300%; height: 1px;
-    background-color: #000000;
+    background-color: white;
     position: absolute; top: 25%; left: 0;
-    opacity: 0
+    opacity: 0;
 }
 .curtainContainer .copy {
     position: absolute;
     bottom: 30%; left: 0;
     width: 100%; text-align: center;
 }
-#row .bcg {
-	background-image:url("../img/palmtree.jpg");
-	background-size: cover;
-	height: 100vh;
-	width: 100%;
-	background: black;
-}
-
 
 /*#row {
     top:0; right:0;
@@ -32,7 +34,7 @@
 	padding-bottom: 100px;
 }*/
 
-.missionstatementsection {
+/*.missionstatementsection {
 	height: 100%;
 	margin: 0 auto;
 	width: 100%;
@@ -45,7 +47,7 @@
 .missionstatement img {
 	height: 225px;
 	width: 100%;
-}
+}*/
 
 @media screen and (min-width: 980px){
 	.missionstatement {

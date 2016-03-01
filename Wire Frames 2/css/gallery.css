@@ -1,0 +1,118 @@
+#row2 {
+	top:0; right:0;
+    bottom:0; left:0;
+	height: 600px;
+	width: 100%;
+	background: #eeeeee;
+	background-size: cover;
+	padding-top: 50px;
+	color: black;
+}
+
+#row2 h2 {
+	text-align: center;
+	padding-top: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#row2 p {
+	text-align: center;
+}
+
+.gallerymobile {
+	margin: 0 auto;
+	width: 90%;
+	height: 600px;
+	top: 100px;
+}
+
+.gallerydesktop {
+	margin: 0 auto;
+	width: 100%;
+	height: 500px;
+}
+
+.gallery {
+	float: left;
+	width: 33%;
+	height: 250px;
+	position: relative;
+}
+
+.gallery h3 {
+	text-align: center;
+}
+
+.gallerywrapper {
+	position: relative;
+}
+
+.previous, .next {
+	position: absolute;
+	top: 250px;
+	color: black;
+	font-size: 28px;
+	z-index:99;
+}
+
+.next {
+	right: 0;
+	margin-right: 15px;
+}
+
+.previous {
+	left: 0px;
+	margin-left: 15px;
+}
+
+.caption, .gallery img {
+	position: absolute;
+	top: 0;
+	text-align: center;
+}
+
+.caption {
+	margin-top: 25%;
+}
+
+@media screen and (min-width: 980px){
+	.gallerywrapper {
+		display: none;
+	}
+	.gallerymobile {
+		display: none;
+	}
+	#row2 {
+		height: 750px;
+	}
+}
+
+@media screen and (max-width:980px) and (min-width: 768px){
+	.gallerywrapper {
+		display: none;
+	}
+	.gallerymobile {
+		display: none;
+	}
+	#row2 {
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#row2 {
+		height: 600px;
+	}
+	.gallerydesktop {
+		display: none;
+	}
+	.gallerywrapper {
+		position: relative;
+	}
+	.gallery {
+		height: 200px;
+	}
+}
+	
+

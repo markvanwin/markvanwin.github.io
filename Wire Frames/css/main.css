@@ -1,5 +1,5 @@
 #mainpic-container .bcg {
-	background-image: url("../images/ocean.png");
+	background-image: url("../images/books.jpg");
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
@@ -8,21 +8,20 @@
 
 #signup .bcg {
 	background: none;
-    background-color: #010101;
-    height: 310px;
+    height: 550px;
     text-align: center;
     width: 100%;
 }
 
-#roadToPeace .bcg {
-	background-image:url("../images/road.jpg");
+#coffee .bcg {
+	background-image:url("../images/coffee.jpg");
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
 }
 
-#roadToPeace .bcg h2 {
-	font-size: 66px;
+#coffee .bcg h2 {
+	font-size: 46px;
 }
 
 
@@ -59,21 +58,21 @@
 	width: 100%;
 	margin: 0;
 	text-align: center;
+	font-size: 42px;
+	color: #000000;
 }
 #signup a.button {
 	display: block;
 	margin: 20px auto;
-	border: 1px solid white;
-	color: white;
+	border: 1px solid black;
+	color: #000000;
 	border-radius: 10px;
 	height: 50px;
 	width: 150px;
 	padding-top: 10px;
 	text-align: center;
-}
-
-.hover {
-	color: black;
+	background: none;
+	font-size: 24px;
 }
 
 @media screen and (min-width: 980px){

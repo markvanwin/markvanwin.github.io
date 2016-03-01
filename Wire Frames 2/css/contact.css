@@ -1,0 +1,78 @@
+#row4 {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/contact_us.png");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	color: black;
+  	padding-bottom: 100px;
+}
+
+.contactheader {
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.contactheader h3 {
+	text-transform: uppercase;
+}
+
+form {
+	height: 50%;
+	width: 100%;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.namebox input {
+	border: 1px solid black;
+	height: 50px;
+	width: 100%;
+	background: none;
+	font-weight: bolder;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.emailbox input {
+	border: 1px solid black;
+	height: 50px;
+	width: 100%;
+	background: none;
+	font-weight: bolder;
+	margin-bottom: 25px;
+}
+
+.commentbox input {
+	border: 1px solid black;
+	height: 250px;
+	width: 100%;
+	background: none;
+	font-weight: bolder;
+	margin-bottom: 25px;
+}
+
+.send-btn input {
+	border: 1px solid black;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background: none;
+	font-weight: bolder;
+	margin-bottom: 25px;
+}
+
+@media screen and (min-width: 980px){
+
+}
+@media screen and (max-width:980px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 768px){
+	#row4 {
+		background-image: none;
+	}
+}

@@ -48,3 +48,7 @@ footer {
 	color: black;
 	text-decoration: none;
 }
+
+.socialwrapper a {
+	color: black !important;
+}
